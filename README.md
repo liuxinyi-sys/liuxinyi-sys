@@ -118,7 +118,7 @@
         <li><b>Frontend management UI:</b> built and integrated Vue3, TypeScript, Element Plus, Pinia, and Axios modules for SQL review, project configuration, and result analysis.</li>
       </ul>
       <p style="margin-top: 1em;">
-        <a href="./sqlomni-demo.mp4">📹 Watch demo video</a>
+        <video src="https://github.com/liuxinyi-sys/liuxinyi-sys/sqlomni-demo.mp4.mp4" controls>📹 Watch demo video</video>
       </p>
     </td>
   </tr>
