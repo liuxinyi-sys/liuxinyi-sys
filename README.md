@@ -102,7 +102,7 @@
         <li><b>Safety and evaluation:</b> implemented tool validation, workspace isolation, approval policies, repeated-call blocking, secret redaction, and regression tests for agent behavior.</li>
       </ul>
       <p style="margin-top: 1em;">
-        <img src="./pico.png" >
+        <img src="./pico.png" alt="Pico 架构图">
       </p>
     </td>
   </tr>
