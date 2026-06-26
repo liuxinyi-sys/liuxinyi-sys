@@ -101,6 +101,9 @@
         <li><b>Structured memory:</b> maintained task summaries, recent files, file summaries, and process notes to support multi-turn follow-up tasks without repeatedly reading the same files.</li>
         <li><b>Safety and evaluation:</b> implemented tool validation, workspace isolation, approval policies, repeated-call blocking, secret redaction, and regression tests for agent behavior.</li>
       </ul>
+      <p style="margin-top: 1em;">
+        <img src="./pico.png" >
+      </p>
     </td>
   </tr>
   <!-- Project 2: SQLOmni -->
