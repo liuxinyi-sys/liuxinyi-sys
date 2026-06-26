@@ -8,44 +8,33 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
+    <td valign="top">
       <p>
-        I am a developer focused on <b>backend engineering, AI tools, and data-oriented systems</b>.
-        I enjoy turning complex workflows into clear, testable, and maintainable software.
+        I am <b>Xinyi Liu</b>, a Master's student in Artificial Intelligence at
+        <b>Qilu University of Technology</b>.
       </p>
+
       <p>
-        My current work explores local coding agents, SQL audit platforms, and practical engineering
-        systems that can be used, debugged, and improved in real projects.
+        My research interests include <b>infrared image generation</b>,
+        <b>Agent applications</b>, and <b>embodied intelligence</b>.
+        I am also interested in building practical AI-driven systems with a focus on
+        <b>reliability, usability, and engineering quality</b>.
       </p>
+
       <ul>
-        <li><b>Focus:</b> Python backend, AI agents, developer tools, SQL audit</li>
-        <li><b>Projects:</b> pico local coding agent and SQLOmni / SQL audit platform</li>
-        <li><b>Learning:</b> system design, reliable backend services, testing, and deployment</li>
-        <li><b>Goal:</b> build production-quality software with simple interfaces and strong foundations</li>
+        <li>🔭 <b>Focus:</b> Infrared Image Generation, Agent Applications, and Embodied Intelligence</li>
+        <li>⚙️ <b>Projects:</b> Local Agent Harness, SQL Audit Rule Generation, and AI-driven Application Systems</li>
+        <li>🌱 <b>Learning:</b> LLM Agents, Multimodal Generation, and Modern Backend Engineering</li>
       </ul>
-      <p>
-        I am currently looking for internship opportunities in backend development,
-        AI infrastructure, developer tools, or data platform engineering.
-      </p>
+
       <p>
         You can reach me here:
       </p>
+
       <ul>
         <li><b>GitHub:</b> <a href="https://github.com/liuxinyi-sys">liuxinyi-sys</a></li>
         <li><b>Email:</b> <a href="mailto:lxy17659723275@163.com">lxy17659723275@163.com</a></li>
       </ul>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <h3>Currently Building</h3>
-      <p><b>Local coding agents</b></p>
-      <p><b>SQL audit systems</b></p>
-      <p><b>Reliable backend services</b></p>
-      <p>
-        <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-58A6FF?style=flat-square" alt="Open to internships" />
-      </p>
-      <p>
-        <img src="https://komarev.com/ghpvc/?username=liuxinyi-sys&style=flat-square&color=58A6FF" alt="Profile views" />
-      </p>
     </td>
   </tr>
 </table>
