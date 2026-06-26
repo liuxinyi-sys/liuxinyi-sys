@@ -103,14 +103,7 @@
   </tr>
 </table>
 
-### Engineering Values
 
-```text
-Readable code       > clever code
-Small iterations    > big rewrites
-Clear boundaries    > hidden coupling
-Useful automation   > decorative complexity
-```
 
 <p align="center" style="margin-top: 2em;">
   <i>"Build simple. Ship carefully. Improve continuously."</i>
