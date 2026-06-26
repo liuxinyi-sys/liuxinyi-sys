@@ -178,8 +178,8 @@
         </tr>
         <tr>
           <td valign="top">
-            <video src="robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
-            <p><a href="robotic-assembly-demo.mp4">Watch demo video</a></p>
+            <video src="./robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
+            <p><a href="./robotic-assembly-demo.mp4">Watch demo video</a></p>
           </td>
         </tr>
       </table>
