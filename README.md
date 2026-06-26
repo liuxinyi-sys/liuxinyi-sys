@@ -95,7 +95,6 @@
         A lightweight local coding agent for code repositories. It reads the workspace,
         runs constrained tools, stores conversation state, and supports multiple model providers.
       </p>
-
       <ul style="margin-left: 1em;">
         <li><b>Agent harness architecture:</b> designed a local coding agent runtime with unified model access, constrained tool execution, session storage, checkpoint recovery, and auditable runtime.</li>
         <li><b>Context management:</b> built layered prompt construction with workspace context, memory, relevant notes, history, and current request, keeping long-running tasks within budget.</li>
@@ -104,7 +103,6 @@
       </ul>
     </td>
   </tr>
-
   <!-- Project 2: SQLOmni -->
   <tr>
     <td width="100%" valign="top" style="padding-bottom: 2em;">
@@ -113,7 +111,6 @@
         A SQL audit and database object analysis platform with a frontend management UI,
         backend services, audit rules, and task processing flows.
       </p>
-
       <ul style="margin-left: 1em;">
         <li><b>SQL audit workflow:</b> supported SQL review, rule configuration, task submission, result tracking, and database object analysis in an integrated platform.</li>
         <li><b>Rule generation pipeline:</b> explored rule matching, structured rule extraction, audit script generation, validation, and persistence for reusable SQL audit rules.</li>
@@ -125,7 +122,6 @@
       </p>
     </td>
   </tr>
-
   <!-- Project 3: Robotic Assembly -->
   <tr>
     <td width="100%" valign="top" style="padding-bottom: 2em;">
@@ -135,7 +131,6 @@
         dual-arm robotic assembly for rigid metal pipes and flexible thermal-insulation hoses
         in new-energy vehicle air-conditioning systems.
       </p>
-
       <ul style="margin-left: 1em;">
         <li><b>High-precision visual localization:</b> estimated stable grasping poses for rigid metal pipes and flexible hoses in complex industrial scenes using 3D vision with RANSAC and ICP pose refinement.</li>
         <li><b>Point-cloud skeleton trajectory planning:</b> applied Laplacian point-cloud contraction to extract pipe centerlines, segment trajectories by curvature, and generate smooth motion paths for robot arms.</li>
