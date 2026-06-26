@@ -138,7 +138,7 @@
         <li><b>Dual-arm automation integration:</b> integrated 3D perception, pose estimation, trajectory planning, and compliant assembly into an end-to-end industrial workflow from visual recognition to successful part insertion.</li>
       </ul>
       <p style="margin-top: 1em;">
-        <a href="./robotic-assembly-demo.mp4">📹 Watch demo video</a>
+        <a href="[./robotic-assembly-demo.mp4](https://github.com/user-attachments/assets/5083a777-1818-4e5a-ba55-30f4ef6ab3ba)">📹 Watch demo video</a>
       </p>
     </td>
   </tr>
