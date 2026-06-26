@@ -95,12 +95,7 @@
         A lightweight local coding agent for code repositories. It reads the workspace,
         runs constrained tools, stores conversation state, and supports multiple model providers.
       </p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img alt="CLI" src="https://img.shields.io/badge/-CLI-111111?style=flat-square&logo=gnubash&logoColor=white" />
-        <img alt="AI Agent" src="https://img.shields.io/badge/-AI_Agent-412991?style=flat-square&logo=openai&logoColor=white" />
-        <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
-      </p>
+
       <ul style="margin-left: 1em;">
         <li><b>Agent harness architecture:</b> designed a local coding agent runtime with unified model access, constrained tool execution, session storage, checkpoint recovery, and auditable runtime.</li>
         <li><b>Context management:</b> built layered prompt construction with workspace context, memory, relevant notes, history, and current request, keeping long-running tasks within budget.</li>
@@ -118,12 +113,7 @@
         A SQL audit and database object analysis platform with a frontend management UI,
         backend services, audit rules, and task processing flows.
       </p>
-      <p>
-        <img alt="Vue.js" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
-        <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img alt="Flask" src="https://img.shields.io/badge/-Flask-111111?style=flat-square&logo=flask&logoColor=white" />
-        <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-      </p>
+
       <ul style="margin-left: 1em;">
         <li><b>SQL audit workflow:</b> supported SQL review, rule configuration, task submission, result tracking, and database object analysis in an integrated platform.</li>
         <li><b>Rule generation pipeline:</b> explored rule matching, structured rule extraction, audit script generation, validation, and persistence for reusable SQL audit rules.</li>
@@ -145,14 +135,7 @@
         dual-arm robotic assembly for rigid metal pipes and flexible thermal-insulation hoses
         in new-energy vehicle air-conditioning systems.
       </p>
-      <p>
-        <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img alt="3D Vision" src="https://img.shields.io/badge/-3D_Vision-58A6FF?style=flat-square" />
-        <img alt="Point Cloud" src="https://img.shields.io/badge/-Point_Cloud-4C72B0?style=flat-square" />
-        <img alt="FPFH ICP" src="https://img.shields.io/badge/-FPFH_ICP-5C3EE8?style=flat-square" />
-        <img alt="JAKA A5" src="https://img.shields.io/badge/-JAKA_A5-009639?style=flat-square" />
-        <img alt="Mech Mind" src="https://img.shields.io/badge/-Mech--Mind_3D_Camera-F97316?style=flat-square" />
-      </p>
+
       <ul style="margin-left: 1em;">
         <li><b>High-precision visual localization:</b> estimated stable grasping poses for rigid metal pipes and flexible hoses in complex industrial scenes using 3D vision with RANSAC and ICP pose refinement.</li>
         <li><b>Point-cloud skeleton trajectory planning:</b> applied Laplacian point-cloud contraction to extract pipe centerlines, segment trajectories by curvature, and generate smooth motion paths for robot arms.</li>
