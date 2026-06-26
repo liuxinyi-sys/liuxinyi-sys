@@ -105,9 +105,9 @@
         <li>Session storage, run records, tool execution, checkpoints, and context management</li>
         <li>Focused tests for agent loop, safety rules, tools, metrics, and public API behavior</li>
       </ul>
-      <video src="./assets/demos/pico-demo.mp4" controls width="100%" title="pico demo video"></video>
-      <p><a href="./assets/demos/pico-demo.mp4">Watch demo video</a></p>
     </td>
+  </tr>
+  <tr>
     <td colspan="2" valign="top">
       <h4>SQLOmni / SQL Audit Platform</h4>
       <p>
@@ -156,8 +156,8 @@
             </ul>
           </td>
           <td width="42%" valign="top">
-            <video src="./assets/demos/robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
-            <p><a href="./assets/demos/robotic-assembly-demo.mp4">Watch demo video</a></p>
+            <video src="./robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
+            <p><a href="./robotic-assembly-demo.mp4">Watch demo video</a></p>
           </td>
         </tr>
       </table>
