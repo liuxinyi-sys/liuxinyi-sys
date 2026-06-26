@@ -131,8 +131,7 @@
         <li><b>Frontend management UI:</b> built and integrated Vue3, TypeScript, Element Plus, Pinia, and Axios modules for SQL review, project configuration, and result analysis.</li>
       </ul>
       <p style="margin-top: 1em;">
-        <video src="./sqlomni-demo.mp4" controls width="100%" title="SQLOmni demo video"></video>
-        <small><a href="./sqlomni-demo.mp4">Watch demo video</a></small>
+        <a href="./sqlomni-demo.mp4">📹 Watch demo video</a>
       </p>
     </td>
   </tr>
@@ -161,8 +160,7 @@
         <li><b>Dual-arm automation integration:</b> integrated 3D perception, pose estimation, trajectory planning, and compliant assembly into an end-to-end industrial workflow from visual recognition to successful part insertion.</li>
       </ul>
       <p style="margin-top: 1em;">
-        <video src="./robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
-        <small><a href="./robotic-assembly-demo.mp4">Watch demo video</a></small>
+        <a href="./robotic-assembly-demo.mp4">📹 Watch demo video</a>
       </p>
     </td>
   </tr>
