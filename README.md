@@ -88,7 +88,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h4>pico - Local Coding Agent</h4>
       <p>
         A lightweight local coding agent for code repositories. It reads the workspace,
@@ -108,7 +108,7 @@
       <video src="./assets/demos/pico-demo.mp4" controls width="100%" title="pico demo video"></video>
       <p><a href="./assets/demos/pico-demo.mp4">Watch demo video</a></p>
     </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h4>SQLOmni / SQL Audit Platform</h4>
       <p>
         A SQL audit and database object analysis platform with a frontend management UI,
