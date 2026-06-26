@@ -13,24 +13,20 @@
         I am <b>Xinyi Liu</b>, a Master's student in Artificial Intelligence at
         <b>Qilu University of Technology</b>.
       </p>
-
       <p>
         My research interests include <b>infrared image generation</b>,
         <b>Agent applications</b>, and <b>embodied intelligence</b>.
         I am also interested in building practical AI-driven systems with a focus on
         <b>reliability, usability, and engineering quality</b>.
       </p>
-
       <ul>
         <li>🔭 <b>Focus:</b> Infrared Image Generation, Agent Applications, and Embodied Intelligence</li>
         <li>⚙️ <b>Projects:</b> Local Agent Harness, SQL Audit Rule Generation, and AI-driven Application Systems</li>
         <li>🌱 <b>Learning:</b> LLM Agents, Multimodal Generation, and Modern Backend Engineering</li>
       </ul>
-
       <p>
         You can reach me here:
       </p>
-
       <ul>
         <li><b>GitHub:</b> <a href="https://github.com/liuxinyi-sys">liuxinyi-sys</a></li>
         <li><b>Email:</b> <a href="mailto:lxy17659723275@163.com">lxy17659723275@163.com</a></li>
