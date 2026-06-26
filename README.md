@@ -1,7 +1,7 @@
 <!-- # Hi, I'm Liu Xinyi -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xinyi;[...]
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xinyi;Backend+Developer+%7C+AI+Tools+Builder;Building+simple%2C+reliable%2C+useful+systems" alt="Typing SVG" />
 </p>
 
 ### About Me
@@ -82,11 +82,19 @@
         A lightweight local coding agent for code repositories. It reads the workspace,
         runs constrained tools, stores conversation state, and supports multiple model providers.
       </p>
+      <p>
+        <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img alt="CLI" src="https://img.shields.io/badge/-CLI-111111?style=flat-square&logo=gnubash&logoColor=white" />
+        <img alt="AI Agent" src="https://img.shields.io/badge/-AI_Agent-412991?style=flat-square&logo=openai&logoColor=white" />
+        <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+      </p>
       <ul>
         <li>Provider support for DeepSeek, Ollama, OpenAI-compatible, and Anthropic-compatible APIs</li>
         <li>Session storage, run records, tool execution, checkpoints, and context management</li>
         <li>Focused tests for agent loop, safety rules, tools, metrics, and public API behavior</li>
       </ul>
+      <video src="./assets/demos/pico-demo.mp4" controls width="100%" title="pico demo video"></video>
+      <p><a href="./assets/demos/pico-demo.mp4">Watch demo video</a></p>
     </td>
     <td width="50%" valign="top">
       <h4>SQLOmni / SQL Audit Platform</h4>
@@ -94,32 +102,65 @@
         A SQL audit and database object analysis platform with a frontend management UI,
         backend services, audit rules, and task processing flows.
       </p>
+      <p>
+        <img alt="Vue.js" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+        <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img alt="Flask" src="https://img.shields.io/badge/-Flask-111111?style=flat-square&logo=flask&logoColor=white" />
+        <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+      </p>
       <ul>
         <li>Frontend stack with Vue, TypeScript, and Element Plus</li>
         <li>Backend services with Python, Flask, Redis, and database integrations</li>
         <li>Core scenarios include SQL review, rule configuration, task management, and result analysis</li>
       </ul>
+      <video src="./assets/demos/sqlomni-demo.mp4" controls width="100%" title="SQLOmni demo video"></video>
+      <p><a href="./assets/demos/sqlomni-demo.mp4">Watch demo video</a></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4>Multimodal Robotic Rigid-Flexible Assembly (Shandong University)</h4>
+    <td colspan="2" valign="top">
+      <h4>Multimodal Robotic Assembly for Rigid-Flexible Objects - Shandong University</h4>
       <p>
-        Collaborative research with BYD Co., Ltd. on intelligent assembly of rigid metal pipes and flexible thermal insulation hoses in new energy vehicle air conditioning systems using dual-arm robotic coordination.
+        A university-industry research project in collaboration with BYD Shenzhen, focused on
+        dual-arm robotic assembly for rigid metal pipes and flexible thermal-insulation hoses
+        in new-energy vehicle air-conditioning systems.
       </p>
-      <ul>
-        <li><b>Tech Stack:</b> Python, Mecaman 3D Structured Light Camera, Jaka A5 Collaborative Robot, FPFH-ICP Point Cloud Registration</li>
-        <li><b>High-Precision Visual Positioning:</b> Advanced 3D vision with RANSAC+ICP point cloud registration for stable, accurate grasp pose estimation in complex industrial scenes</li>
-        <li><b>Intelligent Trajectory Planning:</b> Applied Laplacian point cloud shrinking to extract workpiece skeleton and generate smooth trajectories based on curvature segmentation</li>
-        <li><b>Force Control Compensation:</b> Implemented PID-based compliance control strategy to handle weak-rigidity pipe deformation and improve assembly success rate</li>
-        <li><b>Dual-Arm Integration:</b> Full automation pipeline from vision recognition → pose calculation → trajectory planning → compliant assembly with clear industrial application value</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
+      <p>
+        <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img alt="3D Vision" src="https://img.shields.io/badge/-3D_Vision-58A6FF?style=flat-square" />
+        <img alt="Point Cloud" src="https://img.shields.io/badge/-Point_Cloud-4C72B0?style=flat-square" />
+        <img alt="FPFH ICP" src="https://img.shields.io/badge/-FPFH_ICP-5C3EE8?style=flat-square" />
+        <img alt="JAKA A5" src="https://img.shields.io/badge/-JAKA_A5-009639?style=flat-square" />
+        <img alt="Mech Mind" src="https://img.shields.io/badge/-Mech--Mind_3D_Camera-F97316?style=flat-square" />
+      </p>
+      <table>
+        <tr>
+          <td width="58%" valign="top">
+            <ul>
+              <li><b>High-precision visual localization:</b> estimated stable grasping poses for rigid metal pipes and flexible hoses in complex industrial scenes using 3D vision with RANSAC and ICP point-cloud registration.</li>
+              <li><b>Point-cloud skeleton trajectory planning:</b> applied Laplacian point-cloud contraction to extract pipe centerlines, segment trajectories by curvature, and generate smooth motion paths that match the physical shape of the workpiece.</li>
+              <li><b>Force-control compensation:</b> introduced PID-based compliant control on top of position control, allowing the robot arms to sense and compensate for assembly deviation caused by deformation in weakly rigid parts.</li>
+              <li><b>Dual-arm automation integration:</b> integrated 3D perception, pose estimation, trajectory planning, and compliant assembly into an end-to-end industrial workflow from visual recognition to robotic assembly.</li>
+            </ul>
+          </td>
+          <td width="42%" valign="top">
+            <video src="./assets/demos/robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
+            <p><a href="./assets/demos/robotic-assembly-demo.mp4">Watch demo video</a></p>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
+### Engineering Values
+
+```text
+Readable code       > clever code
+Small iterations    > big rewrites
+Clear boundaries    > hidden coupling
+Useful automation   > decorative complexity
+```
 
 <p align="center" style="margin-top: 2em;">
   <i>"Build simple. Ship carefully. Improve continuously."</i>
