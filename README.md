@@ -1,7 +1,7 @@
 <!-- # 👋 Hi, I'm Liu Xinyi -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xinyi;Backend+Developer+%7C+AI+Tools+Builder;Building+simple%2C+reliable%2C+useful+systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xin[...]
 </p>
 
 ### 👨‍💻 About Me
@@ -86,9 +86,10 @@
 
 ### Featured Work
 
-<table>
+<table width="100%">
+  <!-- Project 1: pico -->
   <tr>
-    <td valign="top">
+    <td width="100%" valign="top" style="padding-bottom: 2em;">
       <h4>pico - Local Coding Agent</h4>
       <p>
         A lightweight local coding agent for code repositories. It reads the workspace,
@@ -100,23 +101,18 @@
         <img alt="AI Agent" src="https://img.shields.io/badge/-AI_Agent-412991?style=flat-square&logo=openai&logoColor=white" />
         <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
       </p>
-      <table>
-        <tr>
-          <td valign="top">
-            <ul>
-              <li><b>Agent harness architecture:</b> designed a local coding agent runtime with unified model access, constrained tool execution, session storage, checkpoint recovery, and auditable run artifacts.</li>
-              <li><b>Context management:</b> built layered prompt construction with workspace context, memory, relevant notes, history, and current request, keeping long-running tasks within budget.</li>
-              <li><b>Structured memory:</b> maintained task summaries, recent files, file summaries, and process notes to support multi-turn follow-up tasks without repeatedly reading the same files.</li>
-              <li><b>Safety and evaluation:</b> implemented tool validation, workspace isolation, approval policies, repeated-call blocking, secret redaction, and regression tests for agent behavior.</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
+      <ul style="margin-left: 1em;">
+        <li><b>Agent harness architecture:</b> designed a local coding agent runtime with unified model access, constrained tool execution, session storage, checkpoint recovery, and auditable runtime.</li>
+        <li><b>Context management:</b> built layered prompt construction with workspace context, memory, relevant notes, history, and current request, keeping long-running tasks within budget.</li>
+        <li><b>Structured memory:</b> maintained task summaries, recent files, file summaries, and process notes to support multi-turn follow-up tasks without repeatedly reading the same files.</li>
+        <li><b>Safety and evaluation:</b> implemented tool validation, workspace isolation, approval policies, repeated-call blocking, secret redaction, and regression tests for agent behavior.</li>
+      </ul>
     </td>
   </tr>
 
+  <!-- Project 2: SQLOmni -->
   <tr>
-    <td valign="top">
+    <td width="100%" valign="top" style="padding-bottom: 2em;">
       <h4>SQLOmni / SQL Audit Platform</h4>
       <p>
         A SQL audit and database object analysis platform with a frontend management UI,
@@ -128,29 +124,22 @@
         <img alt="Flask" src="https://img.shields.io/badge/-Flask-111111?style=flat-square&logo=flask&logoColor=white" />
         <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
       </p>
-      <table>
-        <tr>
-          <td valign="top">
-            <ul>
-              <li><b>SQL audit workflow:</b> supported SQL review, rule configuration, task submission, result tracking, and database object analysis in an integrated platform.</li>
-              <li><b>Rule generation pipeline:</b> explored rule matching, structured rule extraction, audit script generation, validation, and persistence for reusable SQL audit rules.</li>
-              <li><b>Backend services:</b> worked with Python, Flask, Redis, MySQL, and database connection utilities to support task processing and audit result storage.</li>
-              <li><b>Frontend management UI:</b> built and integrated Vue3, TypeScript, Element Plus, Pinia, and Axios modules for SQL review, project configuration, and result analysis.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td valign="top">
-            <video src="./sqlomni-demo.mp4" controls width="100%" title="SQLOmni demo video"></video>
-            <p><a href="./sqlomni-demo.mp4">Watch demo video</a></p>
-          </td>
-        </tr>
-      </table>
+      <ul style="margin-left: 1em;">
+        <li><b>SQL audit workflow:</b> supported SQL review, rule configuration, task submission, result tracking, and database object analysis in an integrated platform.</li>
+        <li><b>Rule generation pipeline:</b> explored rule matching, structured rule extraction, audit script generation, validation, and persistence for reusable SQL audit rules.</li>
+        <li><b>Backend services:</b> worked with Python, Flask, Redis, MySQL, and database connection utilities to support task processing and audit result storage.</li>
+        <li><b>Frontend management UI:</b> built and integrated Vue3, TypeScript, Element Plus, Pinia, and Axios modules for SQL review, project configuration, and result analysis.</li>
+      </ul>
+      <p style="margin-top: 1em;">
+        <video src="./sqlomni-demo.mp4" controls width="100%" title="SQLOmni demo video"></video>
+        <small><a href="./sqlomni-demo.mp4">Watch demo video</a></small>
+      </p>
     </td>
   </tr>
 
+  <!-- Project 3: Robotic Assembly -->
   <tr>
-    <td valign="top">
+    <td width="100%" valign="top" style="padding-bottom: 2em;">
       <h4>Multimodal Robotic Assembly for Rigid-Flexible Objects - Shandong University</h4>
       <p>
         A university-industry research project in collaboration with BYD Shenzhen, focused on
@@ -165,24 +154,16 @@
         <img alt="JAKA A5" src="https://img.shields.io/badge/-JAKA_A5-009639?style=flat-square" />
         <img alt="Mech Mind" src="https://img.shields.io/badge/-Mech--Mind_3D_Camera-F97316?style=flat-square" />
       </p>
-      <table>
-        <tr>
-          <td valign="top">
-            <ul>
-              <li><b>High-precision visual localization:</b> estimated stable grasping poses for rigid metal pipes and flexible hoses in complex industrial scenes using 3D vision with RANSAC and ICP point-cloud registration.</li>
-              <li><b>Point-cloud skeleton trajectory planning:</b> applied Laplacian point-cloud contraction to extract pipe centerlines, segment trajectories by curvature, and generate smooth motion paths that match the physical shape of the workpiece.</li>
-              <li><b>Force-control compensation:</b> introduced PID-based compliant control on top of position control, allowing the robot arms to sense and compensate for assembly deviation caused by deformation in weakly rigid parts.</li>
-              <li><b>Dual-arm automation integration:</b> integrated 3D perception, pose estimation, trajectory planning, and compliant assembly into an end-to-end industrial workflow from visual recognition to robotic assembly.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td valign="top">
-            <video src="./robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
-            <p><a href="./robotic-assembly-demo.mp4">Watch demo video</a></p>
-          </td>
-        </tr>
-      </table>
+      <ul style="margin-left: 1em;">
+        <li><b>High-precision visual localization:</b> estimated stable grasping poses for rigid metal pipes and flexible hoses in complex industrial scenes using 3D vision with RANSAC and ICP pose refinement.</li>
+        <li><b>Point-cloud skeleton trajectory planning:</b> applied Laplacian point-cloud contraction to extract pipe centerlines, segment trajectories by curvature, and generate smooth motion paths for robot arms.</li>
+        <li><b>Force-control compensation:</b> introduced PID-based compliant control on top of position control, allowing the robot arms to sense and compensate for assembly deviation caused by material elasticity.</li>
+        <li><b>Dual-arm automation integration:</b> integrated 3D perception, pose estimation, trajectory planning, and compliant assembly into an end-to-end industrial workflow from visual recognition to successful part insertion.</li>
+      </ul>
+      <p style="margin-top: 1em;">
+        <video src="./robotic-assembly-demo.mp4" controls width="100%" title="Robotic assembly demo video"></video>
+        <small><a href="./robotic-assembly-demo.mp4">Watch demo video</a></small>
+      </p>
     </td>
   </tr>
 </table>
