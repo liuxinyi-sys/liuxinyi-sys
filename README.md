@@ -1,7 +1,7 @@
 <!-- # Hi, I'm Liu Xinyi -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xinyi;Backend+Developer+%7C+AI+Tools+Builder;Building+simple%2C+reliable%2C+useful+systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&height=50&lines=Hi%2C+I'm+Liu+Xinyi;[...]
 </p>
 
 ### About Me
@@ -101,8 +101,24 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Multimodal Robotic Rigid-Flexible Assembly (Shandong University)</h4>
+      <p>
+        Collaborative research with BYD Co., Ltd. on intelligent assembly of rigid metal pipes and flexible thermal insulation hoses in new energy vehicle air conditioning systems using dual-arm robotic coordination.
+      </p>
+      <ul>
+        <li><b>Tech Stack:</b> Python, Mecaman 3D Structured Light Camera, Jaka A5 Collaborative Robot, FPFH-ICP Point Cloud Registration</li>
+        <li><b>High-Precision Visual Positioning:</b> Advanced 3D vision with RANSAC+ICP point cloud registration for stable, accurate grasp pose estimation in complex industrial scenes</li>
+        <li><b>Intelligent Trajectory Planning:</b> Applied Laplacian point cloud shrinking to extract workpiece skeleton and generate smooth trajectories based on curvature segmentation</li>
+        <li><b>Force Control Compensation:</b> Implemented PID-based compliance control strategy to handle weak-rigidity pipe deformation and improve assembly success rate</li>
+        <li><b>Dual-Arm Integration:</b> Full automation pipeline from vision recognition → pose calculation → trajectory planning → compliant assembly with clear industrial application value</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+    </td>
+  </tr>
 </table>
-
 
 
 <p align="center" style="margin-top: 2em;">
